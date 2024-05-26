@@ -45,7 +45,7 @@
         - ansible.builtin.git:
             repo: "https://github.com/babylonchain/babylon.git"
             dest: "~/babylon"
-            version: "v0.8.5"
+            version: "v0.8.6"
             force: yes
 
         - name: build babylon project
