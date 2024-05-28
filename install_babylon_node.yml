@@ -72,7 +72,7 @@
     - name: Initialize node with given name
       ansible.builtin.shell: |
         mkdir -p ~/.babylond
-        babylond init {{ moniker }} --chain-id bbn-test-3 --overwrite
+        babylond init {{ moniker }} --chain-id bbn-test-4 --overwrite
 
     - name: Download and configure the genesis file
       ansible.builtin.shell: |

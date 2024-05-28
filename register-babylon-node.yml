@@ -41,7 +41,7 @@
     - name: Register the validator node
       ansible.builtin.shell: |
         babylond tx checkpointing create-validator /root/.babylond/config/validator.json \
-        --chain-id="bbn-test-3" \
+        --chain-id="bbn-test-4" \
         --gas="auto" \
         --gas-adjustment="1.5" \
         --gas-prices="0.025ubbn" \
